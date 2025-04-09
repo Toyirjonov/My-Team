@@ -234,6 +234,10 @@ main {
   }
 }
 
+.footer__container-information {
+  opacity: 60%;
+}
+
 .footer__container__description {
   position: absolute;
   bottom: 0;
