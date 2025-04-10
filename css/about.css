@@ -1,2 +1,216 @@
 @import "./normalize.css";
 @import "./main.css";
+
+.about {
+  padding-top: 56px;
+  padding-bottom: 120px;
+  background-image: url("../images/bg-pattern-about-1-mobile-nav-1.svg");
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+  background-color: #014e56;
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+}
+
+.about__info {
+  width: 100%;
+  max-width: 730px;
+}
+
+.about__divider {
+  background-color: #f67e7e;
+  margin-bottom: 40px;
+}
+
+.about__description {
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.team-section {
+  background-color: #004047;
+  background-image: url("../images/bg-pattern-about-2-contact-1.svg"),
+    url("../images/bg-pattern-home-4-about-3.svg");
+  background-repeat: no-repeat;
+  background-position: top left -100px, bottom right;
+  padding: 140px 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.team-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 76px;
+}
+
+.team-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #012f34;
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 76px;
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 56px;
+}
+
+.team-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.team-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #79c8c7;
+  margin-bottom: 8px;
+}
+
+.team-role {
+  font-family: "Livvic", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  display: block;
+}
+
+.team-toggle {
+  background-color: #f67e7e;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.team-toggle:hover {
+  background-color: #79c8c7;
+}
+
+.team-toggle-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.team-quote {
+  background-color: #002529;
+  padding: 40px 24px 63px;
+}
+
+.team-name--quote {
+  color: #79c8c7;
+  margin-bottom: 16px;
+}
+
+.team-quote-text {
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 254px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.team-socials {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.team-social-image {
+  color: #ffffff;
+}
+
+.team-social-image:hover {
+  color: #f67e7e;
+}
+
+.team-toggle--alt {
+  background-color: #79c8c7;
+}
+
+.team-toggle--alt:hover {
+  background-color: #f67e7e;
+}
+
+.clients {
+  padding-bottom: 140px;
+  padding-top: 140px;
+  background-color: #012f34;
+  background-image: url("../images/bg-pattern-about-4.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.clients__title {
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
