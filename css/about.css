@@ -51,7 +51,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.team-wrapper {
+.team-container {
   display: flex;
   flex-direction: column;
   align-items: center;

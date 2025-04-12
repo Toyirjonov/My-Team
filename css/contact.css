@@ -1,2 +1,115 @@
 @import "./normalize.css";
 @import "./main.css";
+
+.contact {
+  padding-top: 47px;
+  padding-bottom: 120px;
+  background-image: url("../images/bg-pattern-about-2-contact-1.svg"),
+    url("../images/bg-pattern-contact-2.svg");
+  background-repeat: no-repeat;
+  background-position: top 50px left -100px, bottom right -100px;
+}
+
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__descraption {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+}
+
+.contact__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  letter-spacing: 0px;
+  margin-bottom: 16px;
+}
+
+.contact__subtitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0px;
+  color: #f67e7e;
+  margin-bottom: 32px;
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+
+  & img {
+    margin-right: 23px;
+  }
+
+  & p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+  }
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  gap: 24px;
+  width: 542px;
+  color: #ffffff;
+}
+
+#email,
+#company_name,
+#message,
+#name,
+#title {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  opacity: 0.6;
+  padding-bottom: 17px;
+  padding-left: 14px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.12px;
+
+  &:focus {
+    outline: none;
+    color: #ffffff;
+  }
+
+  &:hover {
+    opacity: 1;
+    color: #ffffff;
+    border-color: #79c8c7;
+  }
+}
+
+#message {
+  padding-bottom: 58px;
+}
+
+#submit {
+  color: #004047;
+  padding: 9px 32px;
+  width: max-content;
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
